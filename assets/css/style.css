@@ -16,7 +16,7 @@
   position: fixed;
   width: 100%;
   bottom: 0;
-  z-index: 1;
+  z-index: 2;
   height: 10vh;
   background: rgba(61, 61, 61, 0.5);
   overflow: hidden; }
@@ -118,7 +118,7 @@ h2 {
 
 .history-tags h3 {
   width: 30vw;
-  height: 15vh;
+  height: 100px;
   background: #E3E0DA;
   border: 3px solid #FFFAFA;
   display: flex;
@@ -129,7 +129,18 @@ h2 {
   font-family: "Yesteryear", cursive;
   color: #3D3D3D; }
 
+.education-tag {
+  border-radius: 0 0 70px 0;
+  box-shadow: 1vh 0.7vh #3D3D3D; }
+
 .work-tag {
-  margin-top: 3vh; }
+  margin-top: 3vh;
+  border-radius: 70px 0 0 0;
+  box-shadow: 1vh 0.7vh #3D3D3D; }
+
+.work {
+  position: relative;
+  z-index: 1;
+  font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
