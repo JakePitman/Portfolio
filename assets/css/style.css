@@ -50,6 +50,14 @@ a p {
   height: 6vh; }
 
 /*------REUSABLE ELEMENTS-------*/
+.section {
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .content {
   width: 80%;
   height: 80vh;
@@ -66,10 +74,10 @@ h2 {
   color: #3D3D3D;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 3vh; }
 
 .card {
-  margin: 3vh 0;
   background: #FFFAFA;
   padding: 5vh;
   font-size: 300%;
@@ -92,12 +100,36 @@ h2 {
 
 /*----------------------ABOUT ME---------------------------*/
 .about-me {
-  height: 100vh;
-  background: #E3E0DA;
-  position: relative;
-  overflow: auto;
+  background: #E3E0DA; }
+
+/*----------------------HISTORY----------------------------*/
+.history {
+  background: #D1CDC6; }
+
+.education {
+  border-bottom: 0;
+  font-size: 30px; }
+
+.history-tags {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  width: 100%;
+  border: 0; }
+
+.history-tags h3 {
+  width: 30vw;
+  height: 15vh;
+  background: #E3E0DA;
+  border: 3px solid #FFFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Yesteryear", cursive;
+  color: #3D3D3D; }
+
+.work-tag {
+  margin-top: 3vh; }
 
 /*# sourceMappingURL=style.css.map */
