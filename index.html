@@ -105,12 +105,15 @@ I enjoyed teaching, but found English to be an uninspiring subject for me to tea
                 <a href="https://www.linkedin.com/in/jake-pitman-b5737815b/" target="_blank"><img class="contact-icon" src="/assets/img/linkedin-logo.png"></a>
                 <a href="https://codepen.io/SyN219/" target="_blank"><img class="contact-icon codepen-icon" src="/assets/img/codepen-logo-square.png"></a>
             </div>
-            <form class="card" action="action_page.php">
+            <form class="card" name="contact" method="POST" netlify>
                 <div class="inputs">
                     <input type="text" id="name" name="name" placeholder="Your Name">
                     <input type="text" id="email" name="email" placeholder="Your Email">
                 </div>
                 <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                <p>
+                    <button type="submit">Send</button>
+                  </p>
             </form>
         </div>
     </div>
