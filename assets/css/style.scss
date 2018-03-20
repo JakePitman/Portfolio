@@ -78,7 +78,6 @@ a p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .content {
@@ -242,14 +241,17 @@ h2 {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#mean-card p {
-    
+.technologies-card-text {
+    font-size: 70px;
 }
 
-.mean-card-icon {
+.card-icon {
     width: 50px;
+    padding: 5px 20px;
 }
 
 .tag {

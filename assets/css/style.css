@@ -200,10 +200,16 @@ h2 {
   width: 70vw;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
 
-.mean-card-icon {
-  width: 50px; }
+.technologies-card-text {
+  font-size: 70px; }
+
+.card-icon {
+  width: 50px;
+  padding: 5px 20px; }
 
 .tag {
   display: inline-block;
