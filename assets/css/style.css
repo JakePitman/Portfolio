@@ -87,6 +87,9 @@ h2 {
   color: #3D3D3D;
   box-sizing: border-box; }
 
+.stripe {
+  background: #95C5D8; }
+
 /*------------------------HERO---------------------------*/
 .hero {
   height: 100vh;
@@ -224,7 +227,8 @@ h2 {
 
 #ruby-tag {
   margin-left: 18vw;
-  padding-left: 15px; }
+  padding-left: 15px;
+  box-shadow: 1vh 0.7vh #3D3D3D; }
 
 #mean-tag {
   /*margin-left: 18vw;*/
@@ -274,7 +278,7 @@ input {
   display: block;
   margin: 20px;
   height: 5vh;
-  width: 35vh;
+  width: 35vw;
   text-align: center;
   font-size: 80%;
   padding: 10px;
@@ -290,5 +294,23 @@ textarea {
   text-align: center;
   opacity: 0.5;
   border: 5px solid #5E5645; }
+
+.submit-button {
+  margin-top: 20px;
+  width: 35vw;
+  height: 10vh;
+  max-height: 100px;
+  background: #5E5645;
+  color: #FFFAFA;
+  font-size: 80%;
+  font-family: "Zilla Slab", serif;
+  border: 2px solid #5E5645;
+  border-radius: 25px;
+  transition: all 0.7s; }
+
+.submit-button:hover {
+  background: #FFFAFA;
+  color: #5E5645;
+  border: 2px solid #5E5645; }
 
 /*# sourceMappingURL=style.css.map */
