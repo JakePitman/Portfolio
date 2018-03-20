@@ -198,7 +198,12 @@ h2 {
 .technologies-card .card {
   height: 30vh;
   width: 70vw;
-  padding: 0; }
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; }
+
+.mean-card-icon {
+  width: 50px; }
 
 .tag {
   display: inline-block;
@@ -211,9 +216,13 @@ h2 {
   font-family: "Zilla Slab", serif;
   padding: 10px; }
 
-#mean-tag {
+#ruby-tag {
   margin-left: 18vw;
   padding-left: 15px; }
+
+#mean-tag {
+  /*margin-left: 18vw;*/
+  /*padding-left: 15px;*/ }
 
 /*.technologies-card:hover,*/
 .technologies-card:active,
@@ -223,7 +232,7 @@ h2 {
 /*----------------------CONTACT ME-----------------------*/
 .contact {
   background: #D1CDC6;
-  min-height: 1400px; }
+  min-height: 2000px; }
 
 .contact-content {
   text-align: center; }
@@ -234,7 +243,7 @@ h2 {
   margin-bottom: 20px; }
 
 .contact-icon {
-  width: 150px;
+  width: 130px;
   border-bottom: 3px solid transparent;
   transition: all 0.7s; }
 
@@ -246,7 +255,7 @@ h2 {
 .codepen-icon {
   border: 10px solid #3D3D3D;
   border-radius: 10px;
-  width: 132px; }
+  width: 113px; }
 
 form {
   width: 100%;
