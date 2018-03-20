@@ -33,7 +33,7 @@ li {
 li:hover {
   background: #3D3D3D; }
 
-a {
+.nav-stack a {
   text-decoration: none;
   color: #3D3D3D;
   background: #95C5D8;
@@ -84,7 +84,8 @@ h2 {
   font-size: 300%;
   box-shadow: 1vh 0.7vh #3D3D3D;
   font-family: "Zilla Slab", serif;
-  color: #3D3D3D; }
+  color: #3D3D3D;
+  box-sizing: border-box; }
 
 /*------------------------HERO---------------------------*/
 .hero {
@@ -218,5 +219,61 @@ h2 {
 .technologies-card:active,
 .technologies-card:hover {
   bottom: 30vh; }
+
+/*----------------------CONTACT ME-----------------------*/
+.contact {
+  background: #D1CDC6;
+  min-height: 1400px; }
+
+.contact-content {
+  text-align: center; }
+
+.contact-icons {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px; }
+
+.contact-icon {
+  width: 150px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.7s; }
+
+.contact-icon:hover {
+  /*border-bottom: solid 3px $light-blue;*/
+  background: #95C5D8;
+  box-shadow: 0px 0px 40px 10px #95C5D8; }
+
+.codepen-icon {
+  border: 10px solid #3D3D3D;
+  border-radius: 10px;
+  width: 132px; }
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+input {
+  display: block;
+  margin: 20px;
+  height: 5vh;
+  width: 35vh;
+  text-align: center;
+  font-size: 80%;
+  padding: 10px;
+  border: 5px solid #5E5645;
+  font-family: "Zilla Slab", serif;
+  opacity: 0.5; }
+
+textarea {
+  height: 30vh;
+  min-height: 350px;
+  width: 70vw;
+  font-size: 80%;
+  text-align: center;
+  opacity: 0.5;
+  border: 5px solid #5E5645; }
 
 /*# sourceMappingURL=style.css.map */
