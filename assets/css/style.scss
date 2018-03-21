@@ -136,12 +136,21 @@ h2 {
 /*----------------------ABOUT ME---------------------------*/
 .about-me {
     background: $sandy-brown-light;
+    min-height: 1650px;
 }
 
 .about-me .stripe {
     top: 150px;
     width: 100%;
     height: 200px;
+}
+
+.above-img {
+}
+
+.about-me img {
+    width: 80vw;
+    margin-top: 4vh;
 }
 
 /*----------------------HISTORY----------------------------*/
@@ -311,12 +320,12 @@ h2 {
 .contact {
     background: $sandy-brown-dark;
     min-height: 2000px;
-}
-
-.contact .stripe {
-    top: 450px;
-    width: 100%;
-    height: 200px;
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-content {
