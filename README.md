@@ -4,6 +4,8 @@
 - My original designs were more cluttered, with too many things happening. This design was intended to be clean and simple.
 - Although I wanted something clean and simple, I also wanted the feeling to be 'soft', which I tried to address in the color palette and fonts
 - The overall design was inspired by the beach - because the sky and the sea represent endlessness and change to me. I felt that this resonates with the fast-changing nature and limitless potential of technology.
+- moodboard:
+    - ![](/assets/img/)
 
 - Fonts:
     - I wanted cursive for the hero and headings to evoke a sense of creativity
@@ -48,7 +50,7 @@
     - The original effect was supposed to have the button split into three, with the first and last separating from the center
     - After thinking about it, I realised it would take too much time, and may confuse the user
 - I ended up adding a picture of myself at the beach
-    - The design was not based on this picture, but it fits the colour palette well
+    - It was originally only used for the mood board
     - I included it because without it, the design had more of a 'bland office' vibe. I feel that the picture ensures that the site is recieved as having a beach theme.
 - The files in the technologies folder were originally going to come out completely
     - This had problems, as the hover effect ends unless the user follows the file up with their mouse (which they wouldn't...) 

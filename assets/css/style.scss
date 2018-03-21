@@ -145,9 +145,6 @@ h2 {
     height: 200px;
 }
 
-.above-img {
-}
-
 .about-me img {
     width: 80vw;
     margin-top: 4vh;
@@ -254,6 +251,7 @@ h2 {
     z-index: 1;
     box-shadow: 1vh 0.7vh $near-black;
 }
+
 .technologies-folder p {
     text-align: left;
     font-size: 5em;
@@ -303,14 +301,7 @@ h2 {
     margin-left: 18vw;
     padding-left: 15px;
 }
-#mean-tag {
-    /*margin-left: 18vw;*/
-    /*padding-left: 15px;*/
-}
-#mean-card {
-    
-}
-/*.technologies-card:hover,*/
+
 .technologies-card:active,
 .technologies-card:hover {
     bottom: 30vh;
@@ -360,9 +351,6 @@ form {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.inputs {
 }
 
 input {

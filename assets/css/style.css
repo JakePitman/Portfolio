@@ -253,11 +253,6 @@ h2 {
   margin-left: 18vw;
   padding-left: 15px; }
 
-#mean-tag {
-  /*margin-left: 18vw;*/
-  /*padding-left: 15px;*/ }
-
-/*.technologies-card:hover,*/
 .technologies-card:active,
 .technologies-card:hover {
   bottom: 30vh; }
