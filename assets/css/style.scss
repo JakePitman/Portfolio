@@ -78,6 +78,7 @@ a p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: -2;
 }
 
 .content {
@@ -112,6 +113,11 @@ h2 {
     box-sizing: border-box;
 }
 
+.stripe {
+    background: $light-blue;
+    position: absolute;
+    z-index: -1;
+}
 /*------------------------HERO---------------------------*/
 .hero {
     height: 100vh;
@@ -132,6 +138,12 @@ h2 {
     background: $sandy-brown-light;
 }
 
+.about-me .stripe {
+    top: 150px;
+    width: 100%;
+    height: 200px;
+}
+
 /*----------------------HISTORY----------------------------*/
 
 .history-section {
@@ -143,6 +155,13 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.history-section .stripe {
+    background: $light-blue;
+    left: 43vw;
+    width: 15vw;
+    height: 100%;
 }
 
 .blue-letters {
@@ -197,14 +216,20 @@ h2 {
     background: $sandy-brown-light;
     min-height: 800px;
     overflow: hidden;
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .technologies-content {
     width: 80%;
     height: 100vh;
     margin: 3vh 0 0 0;
     position: relative;
-    min-height: 800px;
 }
 
 .technologies-folder {
@@ -268,6 +293,7 @@ h2 {
 #ruby-tag {
     margin-left: 18vw;
     padding-left: 15px;
+    box-shadow: 1vh 0.7vh $near-black;
 }
 #mean-tag {
     /*margin-left: 18vw;*/
@@ -285,6 +311,12 @@ h2 {
 .contact {
     background: $sandy-brown-dark;
     min-height: 2000px;
+}
+
+.contact .stripe {
+    top: 450px;
+    width: 100%;
+    height: 200px;
 }
 
 .contact-content {
@@ -329,7 +361,7 @@ input {
     display: block;
     margin: 20px;
     height: 5vh;
-    width: 35vh;
+    width: 35vw;
     text-align: center;
     font-size: 80%;
     padding: 10px;
@@ -346,4 +378,24 @@ textarea {
     text-align: center;
     opacity: 0.5;
     border: 5px solid $dark-brown;
+}
+
+.submit-button {
+    margin-top: 20px;
+    width: 35vw;
+    height: 10vh;
+    max-height: 100px;
+    background: $dark-brown;
+    color: $off-white;
+    font-size: 80%;
+    font-family: $content-font;
+    border: 2px solid $dark-brown;
+    border-radius: 25px;
+    transition: all 0.7s;
+}
+
+.submit-button:hover {
+    background: $off-white;
+    color: $dark-brown;
+    border: 2px solid $dark-brown;
 }

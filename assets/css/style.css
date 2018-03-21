@@ -56,7 +56,8 @@ a p {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  z-index: -2; }
 
 .content {
   width: 80vw;
@@ -88,7 +89,9 @@ h2 {
   box-sizing: border-box; }
 
 .stripe {
-  background: #95C5D8; }
+  background: #95C5D8;
+  position: absolute;
+  z-index: -1; }
 
 /*------------------------HERO---------------------------*/
 .hero {
@@ -107,6 +110,11 @@ h2 {
 .about-me {
   background: #E3E0DA; }
 
+.about-me .stripe {
+  top: 150px;
+  width: 100%;
+  height: 200px; }
+
 /*----------------------HISTORY----------------------------*/
 .history-section {
   background: #D1CDC6;
@@ -117,6 +125,12 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.history-section .stripe {
+  background: #95C5D8;
+  left: 43vw;
+  width: 15vw;
+  height: 100%; }
 
 .blue-letters {
   display: inline;
@@ -163,14 +177,19 @@ h2 {
 .technologies {
   background: #E3E0DA;
   min-height: 800px;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .technologies-content {
   width: 80%;
   height: 100vh;
   margin: 3vh 0 0 0;
-  position: relative;
-  min-height: 800px; }
+  position: relative; }
 
 .technologies-folder {
   position: absolute;
@@ -243,6 +262,11 @@ h2 {
 .contact {
   background: #D1CDC6;
   min-height: 2000px; }
+
+.contact .stripe {
+  top: 450px;
+  width: 100%;
+  height: 200px; }
 
 .contact-content {
   text-align: center; }
